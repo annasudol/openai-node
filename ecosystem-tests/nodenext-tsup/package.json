@@ -3,7 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "build": "tsup",
+    "build": "node init && tsup",
     "main": "npm run build && node dist/index.cjs"
   },
   "dependencies": {},
